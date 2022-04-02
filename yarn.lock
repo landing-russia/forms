@@ -59,6 +59,13 @@
     "estree-walker" "^2.0.1"
     "picomatch" "^2.2.2"
 
+"@sveltejs/adapter-vercel@^1.0.0-next.31":
+  "integrity" "sha512-VV3vP8KqL9XOc7xfQLVhXTM5jrTme+r1qJy98u5/dhAhkdjqrGDwAKo/s7MoB3rTYxLb2b8I4QxAaoz2Y2aIBg=="
+  "resolved" "https://registry.npmjs.org/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.47.tgz"
+  "version" "1.0.0-next.47"
+  dependencies:
+    "esbuild" "^0.14.21"
+
 "@sveltejs/kit@next":
   "integrity" "sha512-R2X4FgzXQhp63XOik6S1Flw91S2CEA7sTxdsnNFrq3O+bIN7pQhJhkm6zgH68MZANdDcq8oIiSRkxT4M3t1+jQ=="
   "resolved" "https://registry.npmjs.org/@sveltejs/kit/-/kit-1.0.0-next.195.tgz"
@@ -548,6 +555,11 @@
   "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.13.13.tgz"
   "version" "0.13.13"
 
+"esbuild-windows-64@0.14.30":
+  "integrity" "sha512-DHgITeUhPAnN9I5O6QBa1GVyPOhiYCn4S4TtQr7sO4+X0LNyqnlmA1M0qmGkUdDC1QQfjI8uQ4G/whdWb2pWIQ=="
+  "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.14.30.tgz"
+  "version" "0.14.30"
+
 "esbuild@^0.13.2":
   "integrity" "sha512-Z17A/R6D0b4s3MousytQ/5i7mTCbaF+Ua/yPfoe71vdTv4KBvVAvQ/6ytMngM2DwGJosl8WxaD75NOQl2QF26Q=="
   "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.13.13.tgz"
@@ -570,6 +582,32 @@
     "esbuild-windows-32" "0.13.13"
     "esbuild-windows-64" "0.13.13"
     "esbuild-windows-arm64" "0.13.13"
+
+"esbuild@^0.14.21":
+  "integrity" "sha512-wCecQSBkIjp2xjuXY+wcXS/PpOQo9rFh4NAKPh4Pm9f3fuLcnxkR0rDzA+mYP88FtXIUcXUyYmaIgfrzRl55jA=="
+  "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.14.30.tgz"
+  "version" "0.14.30"
+  optionalDependencies:
+    "esbuild-android-64" "0.14.30"
+    "esbuild-android-arm64" "0.14.30"
+    "esbuild-darwin-64" "0.14.30"
+    "esbuild-darwin-arm64" "0.14.30"
+    "esbuild-freebsd-64" "0.14.30"
+    "esbuild-freebsd-arm64" "0.14.30"
+    "esbuild-linux-32" "0.14.30"
+    "esbuild-linux-64" "0.14.30"
+    "esbuild-linux-arm" "0.14.30"
+    "esbuild-linux-arm64" "0.14.30"
+    "esbuild-linux-mips64le" "0.14.30"
+    "esbuild-linux-ppc64le" "0.14.30"
+    "esbuild-linux-riscv64" "0.14.30"
+    "esbuild-linux-s390x" "0.14.30"
+    "esbuild-netbsd-64" "0.14.30"
+    "esbuild-openbsd-64" "0.14.30"
+    "esbuild-sunos-64" "0.14.30"
+    "esbuild-windows-32" "0.14.30"
+    "esbuild-windows-64" "0.14.30"
+    "esbuild-windows-arm64" "0.14.30"
 
 "escalade@^3.1.1":
   "integrity" "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw=="
